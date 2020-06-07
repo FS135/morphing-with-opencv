@@ -379,9 +379,9 @@ def main():
 		root.attributes('-fullscreen', True)
 		# root.bind('<Escape>',lambda e: root.destroy())
 	app = window()
-	app.open_img(filename="./img/sebifacharbeit.JPG")
-	app.open_img(filename="./img/domfacharbeit.JPG")
-	app.open_img(filename="./img/domfacharbeit.JPG")
+	app.open_img(filename="./img/YOURPICTURE.JPG")
+	app.open_img(filename="./img/YOURPICTURE.JPG")
+	app.open_img(filename="./img/YOURPICTURE.JPG")
 	app.get_points()
 	while app.run == True:
 		app.update()
